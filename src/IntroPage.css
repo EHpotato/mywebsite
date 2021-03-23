@@ -7,13 +7,27 @@
   border-width: 0.15rem;
   border-radius: 15px;
   border-style: solid;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
   display: flex;
   flex-direction: column;
   transform: translate(-50%, -50%);
   backdrop-filter: blur(5px);
   top: 35%;
   left: 50%;
+}
+.ExitButton {
+  justify-content: right;
+  text-align: right;
+  /* flex-grow: 1; */
+  height: 5%;
+}
+
+.TextContainer {
+  /* top: 35%; */
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  flex-grow: 1;
 }
