@@ -2,7 +2,7 @@
   height: 38%;
   width: 30%;
   position: absolute;
-
+  overflow: hidden;
   color: white;
   border-width: 0.15rem;
   border-radius: 15px;

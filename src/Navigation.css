@@ -1,4 +1,5 @@
 .NavBar {
+  overflow: hidden;
   height: 8%;
   width: 50%;
   position: absolute;
