@@ -1,0 +1,24 @@
+.NameText {
+  height: 38%;
+  width: 30%;
+  position: absolute;
+
+  color: white;
+  border-width: 0.15rem;
+  border-radius: 15px;
+  border-style: solid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(5px);
+  top: 40%;
+  left: 50%;
+}
+h1.fullName {
+  position: relative;
+  bottom: 25px;
+  font-size: 20pt;
+}
