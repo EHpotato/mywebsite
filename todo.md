@@ -1,0 +1,5 @@
+- improve exit button styling
+- add transitions
+- add styling in IntroPage (bubble type of thing for each topic)
+- fragment
+- implement tests

@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import Background from "./Background.js";
-import NameBox from "./NameBox.js";
-import Navigation from "./Navigation.js";
-import ProjectPage from "./ProjectPage";
+import Background from "./components/background/Background";
+import NameBox from "./components/mainbox/NameBox";
+import Navigation from "./components/navbar/Navigation";
+import ProjectPage from "./components/projects/ProjectPage";
+import IntroPage from "./components/intro/IntroPage";
 import { useState } from "react";
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
       {displayName && <NameBox />}
       <Navigation changeDisplay={setDisplay} setIntroDisplay={setIntroDisplay}
         setProjectsDisplay={setProjectsDisplay} />
-      {displayIntro && <div />}
+      {displayIntro && <IntroPage changeDisplay={setDisplay} setIntroDisplay={setIntroDisplay} />}
       {displayProjects && <ProjectPage changeDisplay={setDisplay} setProjectsDisplay={setProjectsDisplay} />}
     </div>
   );
