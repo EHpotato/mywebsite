@@ -1,9 +1,14 @@
 import "./ProjectPage.css";
 
-const ProjectPage = () => {
+const ProjectPage = ({ changeDisplay, setProjectsDisplay }) => {
+
+    const handleClick = () => {
+        setProjectsDisplay(false);
+        changeDisplay(true);
+    };
     return (
         <div className="ProjectPage">
-            <div className="ButtonContainer"><button className="ExitButton">X</button></div>
+            <div className="ButtonContainer"><button className="ExitButton" onClick={handleClick}>X</button></div>
             <div className="TextContainer">
                 <div className="Project">
                     <a className="link" target="blank" href="https://github.com/CSE115A">

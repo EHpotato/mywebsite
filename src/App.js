@@ -19,7 +19,7 @@ const App = () => {
       <Navigation changeDisplay={setDisplay} setIntroDisplay={setIntroDisplay}
         setProjectsDisplay={setProjectsDisplay} />
       {displayIntro && <div />}
-      {displayProjects && <ProjectPage />}
+      {displayProjects && <ProjectPage changeDisplay={setDisplay} setProjectsDisplay={setProjectsDisplay} />}
     </div>
   );
 }
