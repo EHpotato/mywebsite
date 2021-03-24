@@ -13,7 +13,7 @@ const Background = () => {
                             value: "#000000",
                         },
                     },
-                    fpsLimit: 120,
+                    fpsLimit: 60,
                     interactivity: {
                         detectsOn: "canvas",
                         events: {

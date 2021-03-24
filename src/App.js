@@ -3,7 +3,7 @@ import './App.css';
 import Background from "./Background.js";
 import NameBox from "./NameBox.js";
 import Navigation from "./Navigation.js";
-import IntroPage from "./IntroPage";
+import ProjectPage from "./ProjectPage";
 import { useState } from "react";
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
       {displayName && <NameBox />}
       <Navigation changeDisplay={setDisplay} setIntroDisplay={setIntroDisplay}
         setProjectsDisplay={setProjectsDisplay} />
-      {displayIntro && <IntroPage />}
-      {displayProjects && <div />}
+      {displayIntro && <div />}
+      {displayProjects && <ProjectPage />}
     </div>
   );
 }

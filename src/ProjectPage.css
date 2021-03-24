@@ -1,6 +1,6 @@
-.IntroPage {
+.ProjectPage {
   height: 65%;
-  width: 80%;
+  width: 50%;
   position: absolute;
   overflow: hidden;
   color: white;
@@ -17,17 +17,43 @@
   top: 35%;
   left: 50%;
 }
-.ExitButton {
+.ButtonContainer {
+  position: relative;
   justify-content: right;
   text-align: right;
+  /* right: 1%; */
+  /* top: 0.5em; */
   /* flex-grow: 1; */
   height: 5%;
+}
+
+.ExitButton {
+  position: inherit;
+  right: 0.5em;
+  top: 0.3em;
 }
 
 .TextContainer {
   /* top: 35%; */
   position: relative;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  flex-direction: row;
+  justify-content: left;
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   flex-grow: 1;
+  font-size: 12pt;
+}
+
+a.link {
+  text-decoration: none;
+  max-width: fit-content;
+  color: rgb(7, 145, 209);
+}
+
+h4 {
+  max-width: fit-content;
+  display: contents;
+  font-size: 16pt;
 }
