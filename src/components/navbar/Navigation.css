@@ -49,3 +49,20 @@ button {
 .LinkedIn {
   border-right: none;
 }
+
+@media only screen and (max-width: 767px) {
+  .NavBar {
+    top: 80%;
+    width: 85%;
+  }
+  .reLinks {
+    top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .GitHub,
+  .LinkedIn {
+    align-items: center;
+    display: inline-flex;
+  }
+}

@@ -57,3 +57,9 @@ h4 {
   display: contents;
   font-size: 16pt;
 }
+
+@media only screen and (max-width: 767px) {
+  .ProjectPage {
+    width: 85%;
+  }
+}

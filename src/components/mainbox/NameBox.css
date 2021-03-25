@@ -22,3 +22,9 @@ h1.fullName {
   bottom: 25px;
   font-size: 20pt;
 }
+@media only screen and (max-width: 767px) {
+  .NameText {
+    width: 85%;
+    height: 45%;
+  }
+}
