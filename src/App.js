@@ -13,9 +13,8 @@ const App = () => {
   const [displayProjects, setProjectsDisplay] = useState(false);
   const dev = false;
   return (
-    <div className="HomePage" style={{ height: "100vh", width: "100vh", display: "contents" }}>
+    <div className="HomePage" style={{ height: "100vh", width: "100vw", display: "contents" }}>
       {!dev && <Background />}
-      {/* <NameBox /> */}
       {displayName && <NameBox />}
       <Navigation changeDisplay={setDisplay} setIntroDisplay={setIntroDisplay}
         setProjectsDisplay={setProjectsDisplay} />
