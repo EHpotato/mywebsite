@@ -17,6 +17,9 @@
   top: 35%;
   left: 50%;
 }
+.text {
+  margin: 5px;
+}
 .ButtonContainer {
   position: relative;
   justify-content: right;
@@ -24,7 +27,6 @@
   /* right: 1%; */
   /* top: 0.5em; */
   /* flex-grow: 1; */
-  height: 5%;
 }
 
 .ExitButton {
@@ -61,5 +63,11 @@ h4 {
 @media only screen and (max-width: 767px) {
   .ProjectPage {
     width: 85%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .ProjectPage {
+    height: 50%;
+    width: 70%;
   }
 }

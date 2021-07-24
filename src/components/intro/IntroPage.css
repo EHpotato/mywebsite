@@ -1,3 +1,10 @@
 .header {
   font-size: 14pt;
+  margin: 5px;
+}
+.listItems {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  font-weight: bold;
 }

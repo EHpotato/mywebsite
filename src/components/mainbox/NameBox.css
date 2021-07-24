@@ -19,7 +19,6 @@
 }
 h1.fullName {
   position: relative;
-  bottom: 25px;
   font-size: 20pt;
 }
 @media only screen and (max-width: 767px) {
