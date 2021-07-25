@@ -1,6 +1,6 @@
 .NameText {
   height: 38%;
-  width: 30%;
+  min-width: 38%;
   position: absolute;
   overflow: hidden;
   color: white;
