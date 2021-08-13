@@ -24,7 +24,7 @@ const Navigation = ({ changeDisplay, setIntroDisplay, setProjectsDisplay, displa
         <div className="NavBar" style={{ color: "white" }}>
             <IconButton onClick={handleAccount} color='inherit' id="Intro"><AccountCircleIcon fontSize="large" /></IconButton>
             <IconButton onClick={handleProjects} color="inherit"><FolderIcon id="Projects" fontSize="large" /></IconButton>
-            <Link id="GitHub" target="_blank" href="https://github.com/EHpotato" color='inherit'><GitHubIcon fontSize="large" /></Link>
+            <Link id="GitHub" target="_blank" href="https://github.com/Ernestohdz" color='inherit'><GitHubIcon fontSize="large" /></Link>
             <Link id="LinkedIn" target="_blank" href="https://www.linkedin.com/in/ernesto-hernandez-001/"><LinkedIn style={{ fontSize: 45 }} /></Link>
         </div>
     );
